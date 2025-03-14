@@ -8,6 +8,9 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-I.",
+                "-L.",
+                "-llab8part2",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
